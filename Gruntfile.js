@@ -26,7 +26,7 @@ module.exports = function(grunt) {
             expand: true,
             cwd: 'css/src',
             src: ['*.scss'],
-            dest: 'css/src',
+            dest: 'css',
             ext: '.css'
           }
         ]
@@ -70,8 +70,8 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            cwd: 'css/src',
-            src: ['*.css'],
+            cwd: 'css',
+            src: ['*.css', '!*.min.css'],
             dest: 'css',
             ext: '.min.css'
           }
