@@ -1,0 +1,6 @@
+# SASS cache
+/.sass-cache
+
+*.swp
+/node_modules
+
